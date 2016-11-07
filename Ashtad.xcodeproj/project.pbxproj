@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA098ECB1CDE9985006FE175 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA098ECA1CDE9985006FE175 /* Extention.swift */; };
+		DA66AE9B1CB85FAD00CDEA15 /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66AE9A1CB85FAD00CDEA15 /* PreferencesController.swift */; };
+		DA9AFAB81CB5A9E200594FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9AFAB71CB5A9E200594FD8 /* AppDelegate.swift */; };
+		DA9AFABF1CB5A9E200594FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9AFABE1CB5A9E200594FD8 /* Assets.xcassets */; };
+		DA9AFACD1CB5A9E200594FD8 /* AshtadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9AFACC1CB5A9E200594FD8 /* AshtadUITests.swift */; };
+		DA9AFAD81CB5B2CE00594FD8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9AFAD71CB5B2CE00594FD8 /* MainMenu.xib */; };
+		DA9DED3A1DA975BF00CFE08B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DED391DA975BF00CFE08B /* StorageManager.swift */; };
+		DA9DED3C1DAA6C8700CFE08B /* DateCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DED3B1DAA6C8700CFE08B /* DateCalendar.swift */; };
+		DAB4210F1D1F266E005EAA0F /* AutoLaunchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4210E1D1F266E005EAA0F /* AutoLaunchHelper.swift */; };
+		DAD61B471DA8F01000704FBB /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD61B461DA8F01000704FBB /* SettingsManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA9AFAC91CB5A9E200594FD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9AFAAC1CB5A9E200594FD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9AFAB31CB5A9E200594FD8;
+			remoteInfo = Ashtad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA1B532A1D1AB2BA004BC6A3 /* Copy Helper App */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			name = "Copy Helper App";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA098ECA1CDE9985006FE175 /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		DA66AE9A1CB85FAD00CDEA15 /* PreferencesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesController.swift; sourceTree = "<group>"; };
+		DA9AFAB41CB5A9E200594FD8 /* Ashtad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ashtad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9AFAB71CB5A9E200594FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA9AFABE1CB5A9E200594FD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA9AFAC31CB5A9E200594FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9AFAC81CB5A9E200594FD8 /* AshtadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AshtadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9AFACC1CB5A9E200594FD8 /* AshtadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshtadUITests.swift; sourceTree = "<group>"; };
+		DA9AFACE1CB5A9E200594FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9AFAD71CB5B2CE00594FD8 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		DA9DED391DA975BF00CFE08B /* StorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StorageManager.swift; path = Manager/StorageManager.swift; sourceTree = "<group>"; };
+		DA9DED3B1DAA6C8700CFE08B /* DateCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateCalendar.swift; path = Manager/DateCalendar.swift; sourceTree = "<group>"; };
+		DAB4210E1D1F266E005EAA0F /* AutoLaunchHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLaunchHelper.swift; sourceTree = "<group>"; };
+		DAD61B461DA8F01000704FBB /* SettingsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsManager.swift; path = Manager/SettingsManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA9AFAB11CB5A9E200594FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9AFAC51CB5A9E200594FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA702CAF1D390934001E092E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DAB4210E1D1F266E005EAA0F /* AutoLaunchHelper.swift */,
+				DA098ECA1CDE9985006FE175 /* Extention.swift */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		DA9AFAAB1CB5A9E200594FD8 = {
+			isa = PBXGroup;
+			children = (
+				DA9AFAB61CB5A9E200594FD8 /* Ashtad */,
+				DA9AFACB1CB5A9E200594FD8 /* AshtadUITests */,
+				DA9AFAB51CB5A9E200594FD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA9AFAB51CB5A9E200594FD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA9AFAB41CB5A9E200594FD8 /* Ashtad.app */,
+				DA9AFAC81CB5A9E200594FD8 /* AshtadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA9AFAB61CB5A9E200594FD8 /* Ashtad */ = {
+			isa = PBXGroup;
+			children = (
+				DAD61B481DA8F01700704FBB /* Manager */,
+				DA702CAF1D390934001E092E /* lib */,
+				DA9AFAB71CB5A9E200594FD8 /* AppDelegate.swift */,
+				DA9AFABE1CB5A9E200594FD8 /* Assets.xcassets */,
+				DA9AFAD71CB5B2CE00594FD8 /* MainMenu.xib */,
+				DA9AFAC31CB5A9E200594FD8 /* Info.plist */,
+				DA66AE9A1CB85FAD00CDEA15 /* PreferencesController.swift */,
+			);
+			path = Ashtad;
+			sourceTree = "<group>";
+		};
+		DA9AFACB1CB5A9E200594FD8 /* AshtadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9AFACC1CB5A9E200594FD8 /* AshtadUITests.swift */,
+				DA9AFACE1CB5A9E200594FD8 /* Info.plist */,
+			);
+			path = AshtadUITests;
+			sourceTree = "<group>";
+		};
+		DAD61B481DA8F01700704FBB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DA9DED391DA975BF00CFE08B /* StorageManager.swift */,
+				DAD61B461DA8F01000704FBB /* SettingsManager.swift */,
+				DA9DED3B1DAA6C8700CFE08B /* DateCalendar.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA9AFAB31CB5A9E200594FD8 /* Ashtad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9AFAD11CB5A9E200594FD8 /* Build configuration list for PBXNativeTarget "Ashtad" */;
+			buildPhases = (
+				DA9AFAB01CB5A9E200594FD8 /* Sources */,
+				DA9AFAB11CB5A9E200594FD8 /* Frameworks */,
+				DA9AFAB21CB5A9E200594FD8 /* Resources */,
+				DA1B532A1D1AB2BA004BC6A3 /* Copy Helper App */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ashtad;
+			productName = Ashtad;
+			productReference = DA9AFAB41CB5A9E200594FD8 /* Ashtad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA9AFAC71CB5A9E200594FD8 /* AshtadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9AFAD41CB5A9E200594FD8 /* Build configuration list for PBXNativeTarget "AshtadUITests" */;
+			buildPhases = (
+				DA9AFAC41CB5A9E200594FD8 /* Sources */,
+				DA9AFAC51CB5A9E200594FD8 /* Frameworks */,
+				DA9AFAC61CB5A9E200594FD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9AFACA1CB5A9E200594FD8 /* PBXTargetDependency */,
+			);
+			name = AshtadUITests;
+			productName = AshtadUITests;
+			productReference = DA9AFAC81CB5A9E200594FD8 /* AshtadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA9AFAAC1CB5A9E200594FD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Arashk;
+				TargetAttributes = {
+					DA9AFAB31CB5A9E200594FD8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8G59APM2MX;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					DA9AFAC71CB5A9E200594FD8 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = DA9AFAB31CB5A9E200594FD8;
+					};
+				};
+			};
+			buildConfigurationList = DA9AFAAF1CB5A9E200594FD8 /* Build configuration list for PBXProject "Ashtad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA9AFAAB1CB5A9E200594FD8;
+			productRefGroup = DA9AFAB51CB5A9E200594FD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA9AFAB31CB5A9E200594FD8 /* Ashtad */,
+				DA9AFAC71CB5A9E200594FD8 /* AshtadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA9AFAB21CB5A9E200594FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9AFABF1CB5A9E200594FD8 /* Assets.xcassets in Resources */,
+				DA9AFAD81CB5B2CE00594FD8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9AFAC61CB5A9E200594FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA9AFAB01CB5A9E200594FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA66AE9B1CB85FAD00CDEA15 /* PreferencesController.swift in Sources */,
+				DA9DED3A1DA975BF00CFE08B /* StorageManager.swift in Sources */,
+				DAD61B471DA8F01000704FBB /* SettingsManager.swift in Sources */,
+				DAB4210F1D1F266E005EAA0F /* AutoLaunchHelper.swift in Sources */,
+				DA098ECB1CDE9985006FE175 /* Extention.swift in Sources */,
+				DA9AFAB81CB5A9E200594FD8 /* AppDelegate.swift in Sources */,
+				DA9DED3C1DAA6C8700CFE08B /* DateCalendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9AFAC41CB5A9E200594FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9AFACD1CB5A9E200594FD8 /* AshtadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA9AFACA1CB5A9E200594FD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9AFAB31CB5A9E200594FD8 /* Ashtad */;
+			targetProxy = DA9AFAC91CB5A9E200594FD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA9AFACF1CB5A9E200594FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA9AFAD01CB5A9E200594FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DA9AFAD21CB5A9E200594FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = Ashtad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.Ashtad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DA9AFAD31CB5A9E200594FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = Ashtad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.Ashtad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DA9AFAD51CB5A9E200594FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AshtadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.AshtadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ashtad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA9AFAD61CB5A9E200594FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AshtadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.AshtadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ashtad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA9AFAAF1CB5A9E200594FD8 /* Build configuration list for PBXProject "Ashtad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9AFACF1CB5A9E200594FD8 /* Debug */,
+				DA9AFAD01CB5A9E200594FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9AFAD11CB5A9E200594FD8 /* Build configuration list for PBXNativeTarget "Ashtad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9AFAD21CB5A9E200594FD8 /* Debug */,
+				DA9AFAD31CB5A9E200594FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9AFAD41CB5A9E200594FD8 /* Build configuration list for PBXNativeTarget "AshtadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9AFAD51CB5A9E200594FD8 /* Debug */,
+				DA9AFAD61CB5A9E200594FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA9AFAAC1CB5A9E200594FD8 /* Project object */;
+}
